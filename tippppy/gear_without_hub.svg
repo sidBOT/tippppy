@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg fill-opacity="1" xmlns:xlink="http://www.w3.org/1999/xlink" color-rendering="auto" color-interpolation="auto" text-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;" font-style="normal" stroke-linejoin="miter" font-size="12" stroke-dashoffset="0" image-rendering="auto">
+  <!--Unicode Character 'GEAR WITHOUT HUB' (U+26ED)-->
+  <defs id="genericDefs" />
+  <g>
+    <g>
+      <path d="M220.7812 216.5625 L185.3438 216.5625 Q181.9688 235.125 171.5625 249.8906 L196.3125 274.6406 L181.6875 289.4062 L156.7969 264.5156 Q140.9062 275.3438 123.6094 278.2969 L123.6094 313.7344 L102.7969 313.7344 L102.7969 278.2969 Q85.5 275.3438 69.6094 264.5156 L44.7188 289.4062 L29.9531 274.6406 L54.8438 249.8906 Q44.4375 235.125 41.0625 216.5625 L5.625 216.5625 L5.625 195.75 L41.0625 195.75 Q44.4375 177.1875 54.8438 162.4219 L29.9531 137.6719 L44.7188 122.9062 L69.6094 147.7969 Q85.5 136.9688 102.7969 134.0156 L102.7969 98.5781 L123.6094 98.5781 L123.6094 134.0156 Q140.9062 136.9688 156.7969 147.7969 L181.6875 122.9062 L196.3125 137.6719 L171.5625 162.4219 Q181.9688 177.1875 185.3438 195.75 L220.7812 195.75 L220.7812 216.5625 ZM166.6406 206.1562 Q166.6406 183.7969 151.1016 168.2578 Q135.5625 152.7188 113.2031 152.7188 Q90.8438 152.7188 75.3047 168.2578 Q59.7656 183.7969 59.7656 206.1562 Q59.7656 228.375 75.375 243.9844 Q90.9844 259.5938 113.2031 259.5938 Q135.4219 259.5938 151.0312 243.9844 Q166.6406 228.375 166.6406 206.1562 Z" stroke="none" />
+    </g>
+  </g>
+</svg>
