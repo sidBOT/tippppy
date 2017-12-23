@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SecondViewController"
+provides-nominal:
+- "C7tippppy20SecondViewController"
+provides-member:
+- ["C7tippppy20SecondViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "vc"
+- "percentageSegment"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "SecondViewController"
+- "ViewController"
+- "UISegmentedControl"
+- "UIViewController"
+depends-member:
+- ["Ps9AnyObject", "ViewController"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "option"]
+- ["Ps9AnyObject", "percentageSegment"]
+- !private ["Ps9AnyObject", "selectedSegmentIndex"]
+- ["Ps9AnyObject", "vc"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "selectedSegmentIndex"]
+- ["Ps7CVarArg", "ViewController"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "option"]
+- ["Ps7CVarArg", "percentageSegment"]
+- !private ["Ps7CVarArg", "selectedSegmentIndex"]
+- ["Ps7CVarArg", "vc"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "ViewController"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "option"]
+- ["Ps28CustomDebugStringConvertible", "percentageSegment"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedSegmentIndex"]
+- ["Ps28CustomDebugStringConvertible", "vc"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "ViewController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "option"]
+- ["Ps23CustomStringConvertible", "percentageSegment"]
+- !private ["Ps23CustomStringConvertible", "selectedSegmentIndex"]
+- ["Ps23CustomStringConvertible", "vc"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "ViewController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "option"]
+- ["Ps9Equatable", "percentageSegment"]
+- !private ["Ps9Equatable", "selectedSegmentIndex"]
+- ["Ps9Equatable", "vc"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "ViewController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "option"]
+- ["Ps8Hashable", "percentageSegment"]
+- !private ["Ps8Hashable", "selectedSegmentIndex"]
+- ["Ps8Hashable", "vc"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "ViewController"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "option"]
+- ["PSo8NSCoding", "percentageSegment"]
+- !private ["PSo8NSCoding", "selectedSegmentIndex"]
+- ["PSo8NSCoding", "vc"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "ViewController"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "option"]
+- ["PSo26NSExtensionRequestHandling", "percentageSegment"]
+- ["PSo26NSExtensionRequestHandling", "vc"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "UISegmentedControl"]
+- ["CSo8NSObject", "ViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "option"]
+- ["CSo8NSObject", "percentageSegment"]
+- !private ["CSo8NSObject", "selectedSegmentIndex"]
+- ["CSo8NSObject", "vc"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "ViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "option"]
+- ["PSo16NSObjectProtocol", "percentageSegment"]
+- !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
+- ["PSo16NSObjectProtocol", "vc"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["C7tippppy20SecondViewController", "UISegmentedControl"]
+- ["C7tippppy20SecondViewController", "ViewController"]
+- ["C7tippppy20SecondViewController", "deinit"]
+- ["C7tippppy20SecondViewController", "didReceiveMemoryWarning"]
+- ["C7tippppy20SecondViewController", "init"]
+- ["C7tippppy20SecondViewController", "percentageSegment"]
+- ["C7tippppy20SecondViewController", "vc"]
+- ["C7tippppy20SecondViewController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
+- !private ["PSo12UIAppearance", "selectedSegmentIndex"]
+- ["PSo21UIAppearanceContainer", "ViewController"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "option"]
+- ["PSo21UIAppearanceContainer", "percentageSegment"]
+- !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
+- ["PSo21UIAppearanceContainer", "vc"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "ViewController"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "option"]
+- ["PSo18UIContentContainer", "percentageSegment"]
+- ["PSo18UIContentContainer", "vc"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "selectedSegmentIndex"]
+- !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
+- !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
+- ["PSo18UIFocusEnvironment", "ViewController"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "option"]
+- ["PSo18UIFocusEnvironment", "percentageSegment"]
+- !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
+- ["PSo18UIFocusEnvironment", "vc"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "selectedSegmentIndex"]
+- ["CSo11UIResponder", "UISegmentedControl"]
+- ["CSo11UIResponder", "ViewController"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "option"]
+- ["CSo11UIResponder", "percentageSegment"]
+- !private ["CSo11UIResponder", "selectedSegmentIndex"]
+- ["CSo11UIResponder", "vc"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "ViewController"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "option"]
+- ["PSo30UIResponderStandardEditActions", "percentageSegment"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedSegmentIndex"]
+- ["PSo30UIResponderStandardEditActions", "vc"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo18UISegmentedControl", "selectedSegmentIndex"]
+- ["PSo16UIStateRestoring", "ViewController"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "option"]
+- ["PSo16UIStateRestoring", "percentageSegment"]
+- ["PSo16UIStateRestoring", "vc"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "ViewController"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "option"]
+- ["PSo18UITraitEnvironment", "percentageSegment"]
+- !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
+- ["PSo18UITraitEnvironment", "vc"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "selectedSegmentIndex"]
+- ["CSo16UIViewController", "UISegmentedControl"]
+- ["CSo16UIViewController", "ViewController"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "option"]
+- ["CSo16UIViewController", "percentageSegment"]
+- ["CSo16UIViewController", "vc"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C7tippppy14ViewController", "deinit"]
+- ["C7tippppy14ViewController", "init"]
+- !private ["C7tippppy14ViewController", "option"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectedSegmentIndex"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "ViewController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "option"]
+- ["Ps9_Hashable", "percentageSegment"]
+- !private ["Ps9_Hashable", "selectedSegmentIndex"]
+- ["Ps9_Hashable", "vc"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "Ps25LosslessStringConvertible"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C7tippppy20SecondViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo18UISegmentedControl"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C7tippppy14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "705c854028cdf4cc5daa2cf12e74ceac"

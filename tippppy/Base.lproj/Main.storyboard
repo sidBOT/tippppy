@@ -76,6 +76,7 @@
                                     <segment title="25%"/>
                                 </segments>
                                 <connections>
+                                    <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="fbI-Zy-gk4"/>
                                     <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="G8q-y8-OvE"/>
                                 </connections>
                             </segmentedControl>
@@ -86,7 +87,16 @@
                             <outletCollection property="gestureRecognizers" destination="w0O-81-JJi" appends="YES" id="KfV-rR-5k8"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="yHN-iY-GcY"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="yHN-iY-GcY">
+                        <barButtonItem key="rightBarButtonItem" image="icons8-settings-50" id="tp7-h1-srZ">
+                            <inset key="imageInsets" minX="0.0" minY="-1" maxX="-3" maxY="1"/>
+                            <connections>
+                                <segue destination="GiP-1o-lOE" kind="push" id="sOY-0e-C2n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="billField" destination="5Ss-5a-x0r" id="Qqk-MT-wWk"/>
                         <outlet property="tipController" destination="m0c-OK-AaH" id="GoC-mW-9kN"/>
@@ -102,6 +112,35 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="672.5" y="154.5"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="C4P-fn-Lfg">
+            <objects>
+                <viewController id="GiP-1o-lOE" customClass="SecondViewController" customModule="tippppy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jB3-Wq-pbK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="uC0-Ux-gru">
+                                <rect key="frame" x="8" y="103" width="359" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="18%"/>
+                                    <segment title="20%"/>
+                                    <segment title="25%"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D4j-x4-2uF"/>
+                    <connections>
+                        <outlet property="percentageSegment" destination="uC0-Ux-gru" id="I6l-ou-3eD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7T6-rq-1hD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176.5" y="154.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pYW-JN-sb0">
@@ -122,6 +161,9 @@
             <point key="canvasLocation" x="85.5" y="154.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-settings-50" width="50" height="50"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

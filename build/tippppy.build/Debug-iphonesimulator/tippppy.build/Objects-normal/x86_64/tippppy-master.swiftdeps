@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "99d2a967934f356205dd6aa169945f8e"
+build_time: [567333342, 312320000]
+inputs:
+  "/Users/SiD/Desktop/JUNK/Swift/tippppy/tippppy/SecondViewController.swift": [567328373, 0]
+  "/Users/SiD/Desktop/JUNK/Swift/tippppy/tippppy/ViewController.swift": [567333342, 0]
+  "/Users/SiD/Desktop/JUNK/Swift/tippppy/tippppy/AppDelegate.swift": [567173560, 0]
