@@ -76,7 +76,6 @@
                                     <segment title="25%"/>
                                 </segments>
                                 <connections>
-                                    <action selector="changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="fbI-Zy-gk4"/>
                                     <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="G8q-y8-OvE"/>
                                 </connections>
                             </segmentedControl>
@@ -129,13 +128,16 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="onChange:" destination="GiP-1o-lOE" eventType="valueChanged" id="16h-Ia-NhS"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="D4j-x4-2uF"/>
                     <connections>
-                        <outlet property="percentageSegment" destination="uC0-Ux-gru" id="I6l-ou-3eD"/>
+                        <outlet property="tipSelector" destination="uC0-Ux-gru" id="fCL-EC-iUr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7T6-rq-1hD" userLabel="First Responder" sceneMemberID="firstResponder"/>
