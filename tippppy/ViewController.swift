@@ -15,19 +15,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipController: UISegmentedControl!
-    
+    let defaults = UserDefaults.standard
     @IBOutlet weak var blurEffect: UIVisualEffectView!
+    
+    @IBOutlet weak var previousLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let defaults = UserDefaults.standard
         let defaultTipIndex = defaults.integer(forKey: "index")
         tipController.selectedSegmentIndex = defaultTipIndex
+        let tip = defaults.double(forKey: "tip")
+        let total = defaults.double(forKey: "total")
+        let bill = defaults.integer(forKey: "bill")
+        totalLabel.text = String(format: "$%.2f", total)
+        tipLabel.text = String(format: "$%.2f", tip)
+        billField.text = String(format: "%d", bill)
         calculateTip(self)
+
         
     }
     
@@ -38,6 +48,8 @@ class ViewController: UIViewController {
 
     @IBAction func valueChanged(_ sender: Any) {
         calculateTip(self)
+
+        
     }
     @IBAction func calculateTip(_ sender: Any) {
         let tipPercentages = [0.18,0.2,0.25]
@@ -47,6 +59,13 @@ class ViewController: UIViewController {
         let total = bill + tip
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        defaults.set(tip, forKey: "tip")
+        defaults.set(total, forKey: "total")
+        if billField.text != "" {
+            defaults.set(bill, forKey: "bill")
+        }
+        defaults.synchronize()
+        
         
         
     }

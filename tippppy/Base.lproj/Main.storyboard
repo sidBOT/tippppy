@@ -27,6 +27,15 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="IuQ-yy-OQi">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="auK-9e-FnC">
+                                            <rect key="frame" x="50" y="574" width="274" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </view>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <blurEffect style="light"/>
@@ -116,6 +125,7 @@
                     <connections>
                         <outlet property="billField" destination="5Ss-5a-x0r" id="Qqk-MT-wWk"/>
                         <outlet property="blurEffect" destination="c7N-ys-Kh1" id="6fP-hT-zDu"/>
+                        <outlet property="previousLabel" destination="auK-9e-FnC" id="2et-qI-0bY"/>
                         <outlet property="tipController" destination="m0c-OK-AaH" id="GoC-mW-9kN"/>
                         <outlet property="tipLabel" destination="PsU-EE-Oir" id="19p-ZN-A6b"/>
                         <outlet property="totalLabel" destination="0pc-yN-r4o" id="iGY-qI-zyI"/>
