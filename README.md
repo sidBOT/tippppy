@@ -4,7 +4,7 @@ tippppy is a tip calculator application for iOS.
 
 Submitted by: Siddhant Patel
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The only challenge I faced was saving user details such as the bill amount
 
 ## License
 
